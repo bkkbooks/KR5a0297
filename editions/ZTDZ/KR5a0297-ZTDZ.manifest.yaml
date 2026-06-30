@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0297/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0297/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 黃帝授三子玄女經
+  date: '2015-08-28 23:44:30.439598'
+  source:
+    repository: kanripo
+    path: KR5a0297
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0297_000-ZTDZ.yaml, hash: 'sha256:ea8ccddddf4decefea8ce93ff5cbc8b9c7a49485e12ca7bc81972389b6fef092'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0297_000-ZTDZ.markers.yaml, hash: 'sha256:ca6cde5b59fe18e3f2b5a980d9243b4ab93d5a181ee51aab7b09564e5e674c89'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0297_SJB_000-050001a
+    span:
+    - body
+    - 0
+    - 884
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:4a04503cad84a3212890264e2308358f16950e41660b9102bfc18a611a2aafea
